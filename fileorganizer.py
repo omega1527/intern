@@ -77,7 +77,7 @@ def main():
         with open(logfile, "a") as log:
             log.write(message + "\n")
 
-    print(f"\nAll done! Log saved at: {logfile}")
+    print("Log saved at: {logfile}")
 
 if __name__ == "__main__":
     main()
