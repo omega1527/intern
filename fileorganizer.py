@@ -36,7 +36,7 @@ def main():
     folder = input("Enter the folder path: ").strip().strip('"')
 
     if not os.path.isdir(folder):
-        print("Invalid folder path. Please try again.")
+        print("Invalid folder path")
         return
 
     logfile = os.path.join(folder, "file_organizer_log.txt")
