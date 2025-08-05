@@ -66,7 +66,6 @@ def process_file(file_path, case_sensitive=False):
         if word not in stop_words:
             print(f"{word}: {freq}")
 
-    # Save summary to a file
     with open(f"{file_path}_summary.txt", 'w', encoding='utf-8') as summary_file:
         summary_file.write(f"Word Count Analysis for {file_path}\n")
         summary_file.write(f"Words: {wc}\nCharacters (with spaces): {cws}\n")
@@ -91,4 +90,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
