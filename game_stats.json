@@ -1,0 +1,14 @@
+{
+    "omega": {
+        "played": 2,
+        "won": 1,
+        "total": 11,
+        "best": 6
+    },
+    "gayu": {
+        "played": 1,
+        "won": 0,
+        "total": 5,
+        "best": null
+    }
+}
